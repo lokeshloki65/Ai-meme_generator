@@ -1,7 +1,6 @@
 import os
 from PIL import Image, ImageDraw, ImageFont
 
-# Constants
 TEMPLATE_PATH = "templates/temp2.jpg"
 OUTPUT_DIR = "output"
 FONT_PATH = "latha.ttf"
