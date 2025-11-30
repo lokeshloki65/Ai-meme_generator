@@ -8,7 +8,7 @@ FONT_PATH = "latha.ttf"
 CAPTION = "Love panradhu easy da... but unaku teriyanum!"
 
 def wrap_text(text, font, max_width, draw):
-    lines = []
+    lines = [] 
     words = text.split() 
     while words:
         line = ''
