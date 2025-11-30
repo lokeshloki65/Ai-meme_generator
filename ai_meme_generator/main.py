@@ -12,7 +12,7 @@ def wrap_text(text, font, max_width, draw):
     words = text.split() 
     while words:
         line = ''
-        while words and draw.textlength(line + words[0], font=font) < max_width: 
+        while words and draw.textlength(line + words[0], font=font) < max_width:  
             line += words.pop(0) + ' '
         lines.append(line.strip())
     return lines
