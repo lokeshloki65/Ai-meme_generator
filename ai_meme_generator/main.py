@@ -9,7 +9,7 @@ CAPTION = "Love panradhu easy da... but unaku teriyanum!"
 
 def wrap_text(text, font, max_width, draw):
     lines = []
-    words = text.split()
+    words = text.split() 
     while words:
         line = ''
         while words and draw.textlength(line + words[0], font=font) < max_width:
